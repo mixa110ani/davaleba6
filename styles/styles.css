@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header{
+	postion: fixed;
+	margin-top: 21px;
+	margin-left: 102px;
+	
+}
+
+ul{
+	list-style-type: none;
+	display: inline-block;
+}
+
+li{
+	display: inline-block;
+	margin-left: 35px;
+   font-family: "Roboto", serif;
+   font-weight: 700;
+   font-size: 11px;
+}
+
+.image1{
+	width: 32px;
+    height: 32px;
+    margin-left: 29px;
+    margin-top: 11px;
+    border-radius: 100%;
+    position: absolute;
+    top: 5px;    
+}
+
+h1{
+	margin-top: 42px;
+	margin-left: 137px;
+	font-family: "Roboto", serif;
+   font-weight: 700;
+   font-size: 24px;
+   margin-bottom: 27px;
+}
+
+.parent{
+	position: relative;
+	margin-left: 137px;
+	width: 362px;
+}
+
+
+
+.suratebi{
+width: 362px;
+height: 186px;
+border-radius: 5px 5px 0px 0px;
+
+}
+
+.text{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+text-align: left;
+position: absolute;
+top: 32px;
+left: 41px;
+color: white;
+}
+
+.qveda{
+width: 362px;
+height: 171px;
+border-radius: 0px 0px 5px 5px;
+margin-left: 137px;
+position: relative;
+
+}
+
+.text2{
+	font-family: Roboto;
+font-size: 10px;
+font-weight: 700;
+position: absolute;
+top: 68px;
+    left: 37px;
+ color: #8A8787;
+	
+
+
+}
+
+.relative{
+	position: absolute;
+    display: inline-block;
+    position: absolute;
+    top: 115px;
+    left: 40px;
+	
+
+}
+
+.clock{
+	width: 16px;
+	height: 16px;
+	top: 3px;
+	position: absolute;
+	
+	
+}
+
+
+.teqst{
+	font-family: Roboto;
+font-size: 10px;
+font-weight: 700;
+display: inline-block;
+margin-left: 28px;
+
+}
+
+
+.mtavari{
+	display: flex;
+}
