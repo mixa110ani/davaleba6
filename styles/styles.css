@@ -5,9 +5,10 @@
 }
 
 header{
-	postion: fixed;
-	margin-top: 21px;
-	margin-left: 102px;
+	position: fixed;
+	top: 21px;
+	left: 102px;
+	z-index: 5;
 	
 }
 
@@ -16,7 +17,7 @@ ul{
 	display: inline-block;
 }
 
-li{
+.li{
 	display: inline-block;
 	margin-left: 35px;
    font-family: "Roboto", serif;
@@ -28,10 +29,9 @@ li{
 	width: 32px;
     height: 32px;
     margin-left: 29px;
-    margin-top: 11px;
     border-radius: 100%;
     position: absolute;
-    top: 5px;    
+    top: -5px;    
 }
 
 h1{
@@ -45,7 +45,6 @@ h1{
 
 .parent{
 	position: relative;
-	margin-left: 137px;
 	width: 362px;
 }
 
@@ -73,7 +72,6 @@ color: white;
 width: 362px;
 height: 171px;
 border-radius: 0px 0px 5px 5px;
-margin-left: 137px;
 position: relative;
 
 }
@@ -121,6 +119,168 @@ margin-left: 28px;
 }
 
 
-.mtavari{
-	display: flex;
+#gverdit{
+	display: inline-block;
+	margin-left: 138px;
+}
+
+#meore{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#mesame{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+h2{
+	margin-top: 57px;
+	margin-left: 137px;
+	font-family: "Roboto", serif;
+   font-weight: 800;
+   font-size: 24px;
+   margin-bottom: 27px;
+}
+
+#shvili{
+	 width: 758px;
+	 height: 430px;
+	 position: absolute;
+	 border-radius: 5px 5px 5px 5px;
+	 background-size: cover;
+	 background-image: url("https://s3-alpha-sig.figma.com/img/9ced/80fb/75d37ae5c33d7c529efe9264541dd796?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hbvS2CZlH3WVkJqHsrYw9YQ0dz3lpt198NSU02gS2naMIxo8I1yzpCLgeHJvb4EwZYMQQCX~akQmvHp094zo6SV8SGspMsiYpQZYQpKdH4c1NJCxJazPlPAeEmeoU-nsdA~XEGpRtPysoyNHUF-RPqfE2hk9Wv8ZS3z2wjdfIC-mGpN8xbw8QSx0UV8ejl1PyawpwN~~k81Z00CUZubyTj46dW5jh7bSlsTIeLtAKEpgvVgfCJ2BDrT0T6i8FN8q9fuhxv9PlL6sC9lbS97LlDg8f04NimqGekqWE6oQkMLOkbalpWqnke2bOgaF623l16Ym2UMITZyUlMzpnpKkKg__");
+
+}
+
+#mshobeli{
+	width: 1308px;
+	height: 950px;
+	position: relative;
+	left: 138px;
+	top: 30px;
+	
+}
+
+#la{
+	top: 250px;
+	left: 278px;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	font-family: "Roboto";
+}
+
+.wild{
+	 position: absolute;
+	 top: 502px;
+	 
+}
+
+#wild2{
+	width: 758px;
+	 height: 430px;
+	 position: absolute;
+	 border-radius: 5px 5px 5px 5px;
+
+}
+
+#forest{
+	width: 362px;
+height: 212px;
+border-radius: 5px 5px 5px 5px;
+
+}
+
+.forest{
+	left: 941px;
+	top: 30px;
+	position: absolute;
+}
+
+.elephant{
+left: 941px;
+top: 330px;
+position: absolute;
+}
+
+#elephant{
+	width: 362px;
+height: 212px;
+border-radius: 5px 5px 5px 5px;
+}
+
+.tower{
+	top: 612px;
+    left: 941px;
+	position: absolute;
+}
+
+#tower{
+	width: 362px;
+height: 212px;
+border-radius: 5px 5px 5px 5px;
+}
+
+#footer{
+	width: 100%;
+	background-color: #243043;
+	height: 201px;
+	position: relative;
+
+}
+
+footer{
+	margin-top: 40px;
+}
+
+#inf{
+	position: absolute;
+	left: 459px;
+	top: 45px;
+
+}
+
+.li2{
+	font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+text-align: left;
+color: #818687;
+margin-top: 14px;
+
+
+}
+
+#inf2{
+	position: absolute;
+	left: 587px;
+	top: 45px;
+}
+
+#inf3{
+    position: absolute;
+	left: 673px;
+	top: 45px;
+}
+
+#bolo{
+	font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+position: absolute;
+top: 59px;
+left: 922px;
+color: white;
+}
+
+#geolab{
+	width: 38px;
+height: 40px;
+}
+
+#inf4{
+	position: absolute;
+	top: 45px;
+	left: 1586px;
 }
